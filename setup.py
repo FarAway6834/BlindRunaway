@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='blru',
@@ -8,7 +8,7 @@ setup(
     author_email='dutec6834@gmail.com',
     url='https://github.com/FarAway6834/BlindRunaway',
     install_requires=['akatoollite'],
-    packages=find_packages(exclude=[]),
+    py_modules=["blru.py"],
     python_requires='>=3.6',
     package_data={},
     classifiers=[
